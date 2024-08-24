@@ -1,0 +1,47 @@
+[
+    {
+        "title":"برگر ها",
+        "tab":"burger",
+        "imgSRC":"assets/photos/tabs/burgers.png"
+    },
+    {
+        "title":"پیتزا ها",
+        "tab":"Pizza",
+        "imgSRC":"/assets/photos/tabs/Pizza.png"
+    },
+    {
+        "title":"پاستا ها",
+        "tab":"Pasta",
+        "imgSRC":"../assets/photos/tabs/Pasta.png"
+    },
+    {
+        "title":"کباب ها",
+        "tab":"Kebab",
+        "imgSRC":"../assets/photos/tabs/Kebab.png"
+    },
+    {
+        "title":"استیک ها",
+        "tab":"Steak",
+        "imgSRC":"../assets/photos/tabs/Steak.png"
+    },
+    {
+        "title":"تاکو ها",
+        "tab":"Taco",
+        "imgSRC":"../assets/photos/tabs/Taco.png"
+    },
+    {
+        "title":"ساندویچ ها",
+        "tab":"Snacks",
+        "imgSRC":"../assets/photos/tabs/Snacks.png"
+    },
+    {
+        "title":"نوشیدنی ها",
+        "tab":"Drinks",
+        "imgSRC":"assets/photos/tabs/Drinks.png"
+    },
+    {
+        "title":"پیش غذا ها",
+        "tab":"Appetizer",
+        "imgSRC":"assets/photos/tabs/Appetizer.png"
+    }
+]

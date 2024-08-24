@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../assets/Yekan.woff');
+}
+
+.head {
+  font-family: var(--yekan-font);
+  text-align: center;
+  color: var(--white-color);
+  font-weight: bold;
+  width: 100%;
+
+}
+
+#header {
+    width: auto;    
+    padding: 10px;
+    background-color:var(--white-color);
+}
+
+#tabs {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    width: 100%;
+    direction: rtl;
+}
+
+#tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.tab-id-1,.tab-id-2,.tab-id-3,.tab-id-4,.tab-id-5,.tab-id-6,.tab-id-7,.tab-id-8,.tab-id-9 {
+    display: flex;
+    flex-flow: column;
+    gap: 0.2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color) !important;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.tab-id-1:hover,.tab-id-2:hover,.tab-id-3:hover,.tab-id-4:hover,.tab-id-5:hover,.tab-id-6:hover,.tab-id-7:hover,.tab-id-8:hover,.tab-id-9:hover {
+    background-color: var(--tab-hover-color) !important;
+}
+
+
+.tabIMG img{
+    width: 7rem;
+    height: 7rem;
+}

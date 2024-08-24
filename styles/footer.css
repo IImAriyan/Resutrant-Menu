@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../assets/Yekan.woff');
+}
+
+footer.footer {
+    overflow: hidden;
+    background: #2e2e2d;
+    margin-top: 6rem;
+
+}
+
+footer .trusts {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+section.info {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+div.info {
+    font-family: var(--yekan-font);
+    color: var(--white-color);
+    display: flex;
+    flex-flow: column;
+    line-height: 0.1rem;
+    text-align: right;
+}
+
+
+
+
+.info div.title {
+    color: var(--bg-color);
+    text-align: center;
+} 
+
+.powerd-by {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--yekan-font);
+    color: var(--white-color);
+    border-top: 1px solid white;
+}
+
+@media (max-width:768px) {
+    section.info {
+        flex-flow: column;
+        flex-wrap: wrap-reverse;
+        padding: 0;
+    }
+    .information {
+        flex-flow: column;
+        gap: 4rem;
+     
+    }
+}

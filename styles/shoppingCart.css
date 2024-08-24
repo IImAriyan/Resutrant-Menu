@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../assets/Yekan.woff');
+}
+
+.shoppingCart {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.6rem;
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 300ms;
+    z-index: 40;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.shoppingCart:hover {
+    background-color: var(--bg-color);
+}
+
+.shoppingCart img {
+    width: 1.5rem;
+}
